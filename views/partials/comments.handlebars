@@ -1,0 +1,17 @@
+<ul class="list-group">
+  <h1 class="text-center">Comments</h1>
+  {{>createComment}}
+  {{#each this}}
+    <li class="list-group-item">
+      <article>{{text}}</article>
+      <br>
+      <p>{{user.username}}</p>
+      <p>{{format_date createdAt}}<p>
+    </li>
+  {{/each}}
+</ul>
+<style>
+  p {
+    margin: 0;
+  }
+</style>

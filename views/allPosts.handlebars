@@ -1,0 +1,24 @@
+<ul class="list-group">
+  <h1 class="text-center">All Posts</h1>
+  {{#each posts as |post|}}
+    <li class="list-group-item">
+      <h2>{{post.title}}</h2>
+      <article class="post-article">
+        <div class="d-flex">
+          <div class="single">
+            {{{post.body}}}
+          </div>
+        </div>
+        <br />
+        <p>Created By: {{post.user.username}}</p>
+        <button
+          class="btn btn-primary"
+          onclick="location.href='/posts/{{post.id}}'"
+        >View</button>
+      </article>
+    </li>
+  {{/each}}
+</ul>
+<style>
+  .ql-editor { overflow: hidden; }
+</style>
