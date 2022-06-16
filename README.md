@@ -1,4 +1,4 @@
-# Blog
+# Blog App
 
 ## Table of Contents
 
@@ -14,20 +14,15 @@
 
 ## Description
 
-This application is a blog that allows users to register for the app, create, edit, and delete their own blog posts.
+This application allows users to register, create, update, and delete their blog posts.
 
 ## Usage
 
-Create an account using the registration form or if you already have an account then enter your credentials into the login form.
+Create an account using the registration form or if have an account then enter your login/user name and password.
 ![Main](./img/main.png)
-Then it will take you to a page where you can see all of your posts.
+Then it will take you to a page where you can see/make your posts.
 ![My Posts](./img/yours.png)
-If you are newly registered you will want to navigate to the create post page in the navigation menu.
-![Create](./img/create.png)
-You can also use the navigation link for all posts.
-![All](./img/all.png)
-If you see a post, click the view button to see the entire post.
-You also have an option to create a comment which is saved for the posts that you comment on.
+You may create, edit, comment, and view your posts.
 ![Comment](./img/comment.png)
 
 ## Contributors
@@ -36,6 +31,5 @@ University of Denver
 
 ## Questions
 
-Contact me:
 Github: [Jenya10016](https://github.com/Jenya10016) <br>
 Email: js646@me.com
