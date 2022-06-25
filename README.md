@@ -19,11 +19,9 @@ This application allows users to register, create, update, and delete their blog
 ## Usage
 
 Create an account using the registration form or if have an account then enter your login/user name and password.
-![Main](./img/main.png)
-Then it will take you to a page where you can see/make your posts.
-![My Posts](./img/yours.png)
-You may create, edit, comment, and view your posts.
-![Comment](./img/comment.png)
+![Main](./login.png)
+Then it will take you to a page where you can see/make your posts and add comments.
+![My Posts](makepost.png)
 
 ## Contributors
 
